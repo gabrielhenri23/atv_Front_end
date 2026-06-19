@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url("../img/bg_pattern.png") ;
+}
 
 .header1 {
     width: 100%;
@@ -26,5 +29,5 @@
     height: 80px;
     display: flex;
     align-items: center;
-    background-image: url("../img/bg_pattern.png") ;
+    background-image: url("../img/bg_pattern.png");
 }
