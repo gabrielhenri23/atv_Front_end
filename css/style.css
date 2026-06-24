@@ -33,6 +33,7 @@ body {
     align-items: center;
     background-image: url("../img/bg_pattern.png");
     list-style-type: none;
+    border: 2px solid #2929292f;
 }
 
 .barra_info_pet li a {
@@ -48,6 +49,7 @@ body {
     background-color: #ff0000;
     border-radius: 0.5rem;
     padding: 0.4rem;
+
 }
 
 .caixa2 {
@@ -67,16 +69,41 @@ body {
 
 /* localização do botao do carousel */
 
+/* cor do botões */
+.color_bottom {
+    background-color: #939393;
+    border-radius: 1rem;
+}
+
+/* 
 .bt_carousel1 {
-    position: fixed;
+    position: fixed !important;
     top: 130px;
     right: 90px;
     z-index: 999 !important;
+    background-color: #939393;
+    border-radius: 1rem;
+
 }
 
 .bt_carousel2 {
-    position: fixed;
+    position: fixed !important;
     top: 130px;
     right: 50px;
     z-index: 999 !important;
+    background-color: #939393;
+    border-radius: 1rem;
+} */
+
+/* mini banners */
+.banner_mini {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    gap: 0.2rem;
+}
+
+.mini_img {
+    height: 110px;
 }
