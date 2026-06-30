@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Hind', 'Oswald', sans-serif;
 }
 
 body {
-    background-image: url("../img/bg_pattern.png");   
+    background-image: url("../img/bg_pattern.png");
+    height: 2vh;
 }
 
 .header1 {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #0062A2;
 }
 
@@ -32,7 +34,7 @@ body {
 
 .barra_info_pet {
     width: 100%;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     background-image: url("../img/bg_pattern.png");
@@ -106,19 +108,29 @@ body {
     align-items: center;
     padding: 1rem;
     gap: 0.2rem;
-    
-    
+
+
 }
 
 .mini_img {
     height: 110px;
 }
 
-/* conteudo vips */
+/* conteudo cadastro cliente */
 
-.borda_pets {
+.borda_vips {
+    border: 2px solid #bbb5b52f;
     width: 100%;
-    height: 200px;
-    background-image: url("../img/pezinho_pets.png");
-    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.borda_shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* info para cadastro */
+
+.info_bg {
+    width: 100%;
+    background-color: #0062A2;
 }
