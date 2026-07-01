@@ -5,6 +5,12 @@
     font-family: 'Hind', 'Oswald', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
 body {
     background-image: url("../img/bg_pattern.png");
     height: 2vh;
@@ -133,4 +139,16 @@ body {
 .info_bg {
     width: 100%;
     background-color: #0062A2;
+}
+
+/* area duvidas */
+
+.conteudo_duvidas {
+    list-style: none;
+    color: #000;
+}
+
+a:hover {
+    color: #939393;
+    transition: 0.4s;
 }
